@@ -1,0 +1,26 @@
+<md-dialog aria-label="Add variant"  ng-cloak>
+    <form>
+        <md-toolbar>
+        <div class="md-toolbar-tools">
+          <h4>Add variant</h4>
+          <span flex></span>
+          <md-button class="md-icon-button" ng-click="cancel()">
+              
+          </md-button>
+        </div>
+      </md-toolbar>
+        <md-dialog-content>
+            <div class="md-dialog-content">
+                <label>Title</label>
+                <input type="text" class="form-control" ng-model="title" />
+                <label>Options</label>
+                <input type="text" class="form-control" ng-model="title" />
+                <input type="text" class="form-control" ng-model="title" />
+            </div>
+        </md-dialog-content>
+        <md-dialog-actions layout="row">
+            <md-button ng-click="answer('cancel')">Cancel</md-button>
+            <md-button ng-click="answer('add')" style="margin-right:20px;">Add</md-button>
+        </md-dialog-actions>
+    </form>
+</md-dialog>
