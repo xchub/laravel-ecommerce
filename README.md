@@ -1,29 +1,6 @@
 # Laravel Ecommerce
 
-This project is a assignment using Laravel 5.2 by Rodrigo Paixão.
-
-# Assignment
-
-Env setup
-
-* Laravel Framework 5 (implemented)
-* use Homestead Vagrant for your development environment (implemented)
-* use bootstrap for front end, and mysql for database (implemented)
-
-Feature
-
-* create a page to display a list of products with title, images, price, description (implemented)
-* create an admin page to add/edit/delete products (implemented)
-* allow user to buy different options of a product. ie. size, color (implemented)
-* send email notification whenever a user purchase something (implemented)
-* write tests to make sure the above features work (implemented)
-
-Bonus
-
-* optimize backend code structure for maintainability and testability (implemented)
-* send email asynchronously (implemented)
-* use event/listener architecture (implemented)
-* ability to sell a bundle of products at a discount price (not implement)
+This project is a assignment using Laravel 5.2 by Rodrigo Paixão
 
 # Author
 
